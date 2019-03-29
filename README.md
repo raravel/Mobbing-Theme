@@ -1,4 +1,9 @@
 # [Mobbing-Thema](https://mobbing.github.io/Mobbing-Theme/)
+
+## 주의
+미리보기 사이트를 위하여 모든 URL 경로를 `/Mobbing-Theme/...` 으로 변경했습니다.
+실제 사용하실 때는 `/` 으로 변경해서 사용해 주세요.
+
 ## 미리 보기
 
 ![img-1](./resource/img/readme/image-1.png)
