@@ -1,9 +1,9 @@
 # [Mobbing-Thema](https://mobbing.github.io/Mobbing-Theme/)
 ## 미리 보기
 <center>
-![img-1](resource/img/readme/image-1.png)
-![img-2](resource/img/readme/image-2.png)
-![img-3](resource/img/readme/image-3.png)
+![img-1](./resource/img/readme/image-1.png)
+![img-2](./resource/img/readme/image-2.png)
+![img-3](./resource/img/readme/image-3.png)
 </center>
 <br>
 
