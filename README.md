@@ -1,5 +1,12 @@
-# [Mobbing-Thema](https://mobbing.github.io/Mobbing-Theme/)
+# Mobbing-Thema
+
+## 주의
+미리보기 사이트를 위하여 모든 URL 경로를 `/Mobbing-Theme/...` 으로 변경했습니다.
+실제 사용하실 때는 `/` 으로 변경해서 사용해 주세요.
+
 ## 미리 보기
+
+[Preview Site](https://mobbing.github.io/Mobbing-Theme/)
 
 ![img-1](./resource/img/readme/image-1.png)
 ![img-2](./resource/img/readme/image-2.png)
@@ -48,14 +55,16 @@ posts.js를 수정하고, 포스팅이 관리 될 카테고리 폴더를 생성�
 
 하지만 이 모든 것을 하나씩 일일히 추가한다는 것은 실수가 있을 지도 모르고, html을 직접 사용하여 포스팅 하는 것은 시간이 오래걸립니다.
 
-그래서 Markdown을 사용하여 효율적인 생산성과 포스팅의 간편화를 지원해주는 프로그램을, 오픈 소스인 **[Moeditor](https://github.com/Moeditor/Moeditor)**를 수정하여 만들었습니다.
+그래서 Markdown을 사용하여 효율적인 생산성과 포스팅의 간편화를 지원해주는 프로그램을, 오픈 소스인 **[Moeditor](https://github.com/Moeditor/Moeditor)** 를 수정하여 만들었습니다.
 
 자세한 사용법은 해당 깃 레포지토리를 방문 해 확인하세요.
 
 #### [Mobbing/Moeditor](https://github.com/mobbing/Moeditor)
 
 <br>
+
 ## 사이트 맵
+
 Mobbing-Theme는 온라인 사이트맵 프로그램이 제대로 된 사이트맵을 만들어 주지 않습니다. 그래서 우리의 사이트맵을 만들어주는 스크립트를 작성했습니다.
 
 ```console
