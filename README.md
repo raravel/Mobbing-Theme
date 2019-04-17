@@ -72,3 +72,11 @@ $ node make_sitemap.js
 ```
 프로젝트 최상위 폴더에 스크립트가 있습니다. 실행시키면 포스팅한 모든 내용들이 같은 폴더에 사이트맵으로 추출됩니다. 
 
+## RSS Feeds
+
+마찬가지로, rss feeds를 생성해주는 스크립트를 만들었습니다.
+사용하기 위해선 [jsdom](https://github.com/jsdom/jsdom)을 사용하기 때문에 `make install`이 된 상태여야 합니다.
+
+```console
+$ node make_rss.js
+```
