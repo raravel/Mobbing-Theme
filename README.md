@@ -1,7 +1,7 @@
 # Mobbing-Thema
 
 ## 주의
-미리보기 사이트를 위하여 모든 URL 경로를 `/Mobbing-Theme/...` 으로 변경했습니다.
+미리보기 사이트를 위하여 모든 URL 경로를 `/Mobbing-Theme/...` 으로 변경했습니다.<br>
 실제 사용하실 때는 `/` 으로 변경해서 사용해 주세요.
 
 ## 미리 보기
@@ -30,7 +30,7 @@ $ npm install
 $ npm start
 ```
 
-express를 사용하는 서버가 간단하게 구축되어 있습니다.
+express를 사용하는 서버가 간단하게 구축되어 있습니다.<br>
 localhost:3000 으로 접속하여 개발중인 사이트를 테스트해볼 수 있습니다.
 
 ## 트리
@@ -74,8 +74,24 @@ $ node make_sitemap.js
 
 ## RSS Feeds
 
-마찬가지로, rss feeds를 생성해주는 스크립트를 만들었습니다.
+마찬가지로, rss feeds를 생성해주는 스크립트를 만들었습니다.<br>
 사용하기 위해선 [jsdom](https://github.com/jsdom/jsdom)을 사용하기 때문에 `make install`이 된 상태여야 합니다.
+
+RSS의 옵션은 make_rss.js에 선언된 다음 변수를 통하여 수정할 수 있습니다.
+
+```js
+var site = "https://mobbing.github.io";
+const config = {
+	site: "https://mobbing.github.io",
+	title: "Commit Complete",
+	image: path.join(site, "/resource/img/logo.png"),
+	description: "커밋을 했더니 소스코드의 오류가 보였다.",
+	language: "ko",
+	generator: "mobbing-theme",
+	pubData: new Date().getPubData(),
+};
+```
+site, title, image, description을 자신의 사이트에 맞게 수정하시면 됩니다.
 
 ```console
 $ node make_rss.js
