@@ -1,4 +1,4 @@
-# Mobbing-Thema
+# Mobbing-Theme
 
 ## 주의
 미리보기 사이트를 위하여 모든 URL 경로를 `/Mobbing-Theme/...` 으로 변경했습니다.<br>
