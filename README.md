@@ -6,7 +6,7 @@
 
 ## 미리 보기
 
-[Preview Site](https://mobbing.github.io/Mobbing-Theme/)
+[Preview Site](https://tree-some.github.io/Mobbing-Theme/)
 
 ![img-1](./resource/img/readme/image-1.png)
 ![img-2](./resource/img/readme/image-2.png)
